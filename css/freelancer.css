@@ -41,7 +41,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #18BC9C;
+  background-color: rgba(96, 190, 238, 0.9);
 }
 
 hr.star-dark {
@@ -66,6 +66,7 @@ section h2 {
   section h2 {
     font-size: 3rem;
     line-height: 2.5rem;
+    color: rgba(96, 190, 238, 0.9) !important;
   }
 }
 
@@ -116,7 +117,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #18BC9C;
+  color: rgba(96, 190, 238, 0.9);
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -124,7 +125,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #18BC9C;
+  color: rgba(96, 190, 238, 0.9);
 }
 
 #mainNav .navbar-toggler {
@@ -151,11 +152,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #18BC9C;
+    background: rgba(96, 190, 238, 0.9);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #18BC9C;
+    background: rgba(96, 190, 238, 0.9);
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -211,7 +212,7 @@ header.masthead h2 {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(24, 188, 156, 0.9);
+  background-color: rgba(96, 190, 238, 0.9);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -314,7 +315,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: rgba(96, 190, 238, 0.9);
 }
 
 form .row:first-child .floating-label-form-group {
@@ -333,7 +334,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #18BC9C;
+  color: rgba(96, 190, 238, 0.9);
 }
 
 a:focus, a:hover, a:active {
@@ -345,7 +346,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #18BC9C !important;
+  background-color: rgba(96, 190, 238, 0.9) !important;
 }
 
 .bg-secondary {
@@ -353,7 +354,7 @@ a:focus, a:hover, a:active {
 }
 
 .text-primary {
-  color: #18BC9C !important;
+  color: rgba(96, 190, 238, 0.9) !important;
 }
 
 .text-secondary {
@@ -361,8 +362,8 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: rgba(96, 190, 238, 0.9);
+  border-color: rgba(96, 190, 238, 0.9);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
